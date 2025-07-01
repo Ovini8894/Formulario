@@ -34,6 +34,20 @@
       filter: blur(8px); /* aqui é o desfoque */
       z-index: -1; /* fica atrás do conteúdo */
     }
+    .inputs-container input,
+.inputs-container select {
+  appearance: none;           /* remove o estilo nativo */
+  -webkit-appearance: none;   /* remove em navegadores baseados em Webkit */
+  background-color: #fff;     /* define fundo branco */
+  color: #000;                /* texto preto pra contraste */
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
     </style>
 </head>
 <body>
